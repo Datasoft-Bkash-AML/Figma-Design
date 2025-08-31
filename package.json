@@ -1,0 +1,17 @@
+{
+  "name": "sf-frontend-skeleton",
+  "version": "1.0.0",
+  "description": "Capture and generate a single-page frontend skeleton of the ReyTheme San Francisco demo",
+  "main": "scripts/capture.js",
+  "scripts": {
+    "capture": "node scripts/capture.js",
+    "replica": "node scripts/make_replica.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
